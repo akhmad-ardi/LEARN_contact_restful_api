@@ -1,4 +1,4 @@
-import * as winston from 'winston'
+import * as winston from 'winston';
 
 export const logger = winston.createLogger({
     level: 'info',
@@ -6,4 +6,4 @@ export const logger = winston.createLogger({
     transports: [
         new winston.transports.Console({})
     ]
-})
+});
